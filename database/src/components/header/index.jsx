@@ -1,4 +1,4 @@
-import StarWarsLogo2 from "/public/StarWarsLogo2.png";
+import StarWarsLogo2 from "/StarWarsLogo2.png";
 
 export const Header = () => {
   return (

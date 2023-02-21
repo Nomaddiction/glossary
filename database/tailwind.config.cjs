@@ -9,7 +9,8 @@ module.exports = {
     extend: {},
     colors: {
       header: "#2A2532",
-      white: "#ffffff;",
+      white: "#ffffff",
+      green: "#2B641A",
     },
   },
   plugins: [],

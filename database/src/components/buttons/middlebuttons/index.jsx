@@ -1,6 +1,6 @@
 export const Buttons = () => {
   return (
-    <div className="h-1 flex font-open text-4xl text-white auto-cols-auto relative top-96 w-auto">
+    <div className="grid gap-6.5 grid-cols-2 relative top-96 text-white font-open text-4xl gap-y-4">
       <button className="bg-header">Test</button>
       <button className="bg-header">Test</button>
       <button className="bg-header">Test</button>

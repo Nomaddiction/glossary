@@ -12,6 +12,10 @@ module.exports = {
       white: "#ffffff",
       green: "#2B641A",
     },
+    gap: {
+      6.5: "1.875rem",
+      4: "1rem",
+    },
   },
   plugins: [],
 };

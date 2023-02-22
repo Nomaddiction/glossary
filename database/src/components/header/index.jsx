@@ -1,4 +1,5 @@
 import StarWarsLogo2 from "/StarWarsLogo2.png";
+import { PopoverDemo } from "./popover";
 
 export const Header = () => {
   return (
@@ -9,8 +10,8 @@ export const Header = () => {
       <div className="text-white font-roboto text-5xl font-semibold py-1">
         Star Glossary
       </div>
-      <div className="text-white font-open text-xl font-light py-4">
-        About us
+      <div>
+        <PopoverDemo />
       </div>
     </div>
   );

@@ -1,16 +1,15 @@
 import * as React from "react";
-import * as Popover from "@radix-ui/react-popover";
+import * as RPopover from "@radix-ui/react-popover";
+import styles from "./popover.module.scss";
 
-export const PopoverDemo = () => (
-  <Popover.Root>
-    <Popover.Trigger className="text-white font-open font-light text-xl py-4">
-      About Us
-    </Popover.Trigger>
-    <Popover.Portal>
-      <Popover.Content className="text-white">
+export const Popover = () => (
+  <RPopover.Root>
+    <RPopover.Trigger className={styles.trigger}>About Us</RPopover.Trigger>
+    <RPopover.Portal>
+      <RPopover.Content className={styles.content}>
         Ebalo opusti
-        <Popover.Arrow className="fill-white" />
-      </Popover.Content>
-    </Popover.Portal>
-  </Popover.Root>
+        <RPopover.Arrow className={styles.arrow} />
+      </RPopover.Content>
+    </RPopover.Portal>
+  </RPopover.Root>
 );

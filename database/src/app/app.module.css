@@ -1,9 +1,0 @@
-.body {
-  height: 100vh;
-  background: rgb(62, 82, 107);
-  background: linear-gradient(
-    360deg,
-    rgba(62, 82, 107, 1) 15%,
-    rgba(38, 50, 65, 1) 100%
-  );
-}

@@ -5,7 +5,6 @@ module.exports = {
     extend: {
       colors: {
         header: "#2A2532",
-        white: "#ffffff",
         green: "#2B641A",
       },
       gap: {

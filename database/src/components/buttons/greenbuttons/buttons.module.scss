@@ -1,8 +1,8 @@
 .default {
-  @apply text-white font-roboto text-4xl relative top-28 grid gap-8 
-    grid-cols-2;
+  @apply grid gap-6.5 grid-cols-2 relative mt-12 text-white font-open 
+    text-4xl gap-y-4;
 }
 
 .button {
-  @apply bg-green h-16 w-96;
+  @apply bg-green hover:bg-black;
 }
